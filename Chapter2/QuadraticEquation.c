@@ -31,21 +31,21 @@ int main()
 	{
 		if(discreminant>0)
 		{
-			root1=(-b+sqrt(b*b-4*a*c))/2*a;
-			root2=(-b-sqrt(b*b-4*a*c))/2*a;
+			root1=(-b+sqrt(b*b-4*a*c))/(2*a);
+			root2=(-b-sqrt(b*b-4*a*c))/(2*a);
 			printf("Roots are %f & %f",root1,root2);
 		}
 		else
 			if(discreminant==0)
 			{
-				root1=root2=-b/2*a;
+				root1=root2=-b/(2*a);
 				printf("Roots are %f & %f",root1,root2);
 			}
 			else
 				if(discreminant<0)
 				{
-					x=-b/2*a;
-					y=(sqrt(-(b*b-4*a*c)))/2*a;
+					x=-b/(2*a);
+					y=(sqrt(-(b*b-4*a*c)))/(2*a);
 					printf("Roots are %.2f+i%.2f & %.2f-i%.2f",x,y,x,y);
 				}
 	}
