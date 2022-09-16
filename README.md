@@ -1,2 +1,2 @@
 # C_Program
-Practice Question of C programming.
+C practice program.
